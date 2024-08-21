@@ -1,10 +1,13 @@
 package com.github.gabguedes.ms_cep.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
 public class Endereco {
 
     private String cep;
@@ -14,10 +17,10 @@ public class Endereco {
     private String bairro;
     private String localidade;
     private String uf;
-    private Long ibge;
-    private Long gia;
-    private int ddd;
-    private Long siafi;
+    private String ibge;
+    private String gia;
+    private String ddd;
+    private String siafi;
 
 
 }
